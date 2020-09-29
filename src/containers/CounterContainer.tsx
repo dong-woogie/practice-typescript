@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Counter from "../components/Counter";
 import { RootState } from "../modules";
-import { decrease, increase, increaseBy } from "../modules/Counter";
+import { decrease, increase, increaseBy } from "../modules/counter";
 
 function CounterContainer() {
   const dispatch = useDispatch();
