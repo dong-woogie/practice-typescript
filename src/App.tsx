@@ -1,11 +1,12 @@
 import React from "react";
+import GithubProfileLoader from "./containers/GithubProfileLoader";
 // import CounterContainer from "./containers/CounterContainer";
-import TodoApp from "./containers/TodoApp";
+// import TodoApp from "./containers/TodoApp";
 
 function App() {
   return (
     <div>
-      <TodoApp />
+      <GithubProfileLoader />
     </div>
   );
 }

@@ -27,13 +27,13 @@ export type GithubProfile = {
   received_events_url: string;
   type: string;
   site_admin: boolean;
-  name: null;
-  company: null;
+  name: string;
+  company: string;
   blog: string;
   location: null;
   email: null;
   hireable: null;
-  bio: null;
+  bio: string;
   twitter_username: null;
   public_repos: number;
   public_gists: number;
