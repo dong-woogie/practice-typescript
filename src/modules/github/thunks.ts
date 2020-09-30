@@ -1,5 +1,5 @@
 import { getUserProfile } from "../../api/github";
-import { createAsyncThunk } from "../../utils/createAsyncThunk";
+import { createAsyncThunk } from "../../lib/createAsyncThunk";
 import { getUserProfileAsync } from "./actions";
 
 export const getUserProfileThunk = createAsyncThunk(
